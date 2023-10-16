@@ -23,7 +23,7 @@ class User:
 john = User(1, "john", "12345")
 
 print(f'Hello, I am {john.name}.')
-print(f'My password is {john.__password}.') 
+print(f'My password is {john.__password}.')
 print(f'My id is {john.id}.')
 
 # del john.password
